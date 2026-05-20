@@ -1,5 +1,4 @@
-crewai==0.63.0
-litellm
+crewai==1.14.3
 tavily-python
 beautifulsoup4
 requests

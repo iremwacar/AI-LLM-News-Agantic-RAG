@@ -21,7 +21,7 @@ jobs:
     - name: Kütüphaneleri Yükle
       run: |
         python -m pip install --upgrade pip
-        pip install crewai==0.63.0 litellm tavily-python beautifulsoup4 requests python-dotenv
+        pip install crewai==1.14.3 tavily-python beautifulsoup4 requests python-dotenv
         
     - name: Ajanı Çalıştır
       env:
