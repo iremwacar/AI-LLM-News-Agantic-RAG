@@ -1,0 +1,5 @@
+crewai          # Ajan yönetimi için
+langchain       # RAG ve araç zincirleri için
+tavily-python   # Gelişmiş AI araması için
+python-dotenv   # .env dosyası yönetimi için
+chromadb        # Hafif ve hızlı vektör veritabanı için
