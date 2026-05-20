@@ -71,8 +71,9 @@ email_task = Task(
 news_crew = Crew(
     agents=[researcher_agent, analyst_agent, communicator_agent],
     tasks=[research_task, analysis_task, email_task],
-    process=Process.sequential, # Sıralı işlem: Araştır -> Analiz Et -> Mail At
+    process=Process.sequential, 
     verbose=True,
+    cache=False,
     max_rpm=10 # Groq API limitlerini aşmamak için hızı sınırlıyoruz
 )
 
