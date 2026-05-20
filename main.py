@@ -57,9 +57,10 @@ analysis_task = Task(
 # GÖREV 3: İletişim Uzmanı (Mail Operasyonu)
 email_task = Task(
     description=f"""
-    Analistin hazırladığı raporu al. 
-    İçeriğin en başına 'Merhaba İrem, İşte {bugunun_tarihi} tarihli günlük global yapay zeka bültenin:' cümlesini ekle.
-    Raporu Markdown formatını koruyarak 'Email_Gonderme_Araci' ile gönder.
+    Analistten gelen raporu al.
+    İçeriğin başına şu cümleyi ekle: 'Merhaba İrem, İşte {bugunun_tarihi} tarihli günlük global yapay zeka bültenin:'
+    Elde ettiğin tüm metni tek bir 'icerik' parametresi haline getir.
+    Bu içeriği 'Email_Gonderme_Araci' aracını kullanarak gönder.
     """,
     expected_output="Mailin başarıyla gönderildiğine dair onay mesajı.",
     agent=communicator_agent,
