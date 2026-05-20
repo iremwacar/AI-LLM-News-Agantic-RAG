@@ -1,4 +1,4 @@
-crewai
+crewai==0.63.0
 litellm
 tavily-python
 beautifulsoup4
